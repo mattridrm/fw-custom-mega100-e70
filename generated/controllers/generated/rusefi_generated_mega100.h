@@ -152,8 +152,8 @@
 #define BOARD_VE_MENU_FROM_FILE 
 #define BOOST_BLEND_COUNT 2
 #define BOOST_CURVE_SIZE 5
-#define BOOST_LOAD_COUNT 12
-#define BOOST_RPM_COUNT 12
+#define BOOST_LOAD_COUNT 8
+#define BOOST_RPM_COUNT 8
 #define boostType_e_auto_enum 0="OPEN_LOOP",1="CLOSED_LOOP"
 #define boostType_e_CLOSED_LOOP 1
 #define boostType_e_OPEN_LOOP 0
@@ -445,7 +445,7 @@
 #define ego_sensor_e_ES_PLX 4
 #define egoSettings_NAME "CAN O2 sensors"
 #define EGT_CHANNEL_COUNT 8
-#define engine_configuration_s_size 3908
+#define engine_configuration_s_size 4292
 #define engine_load_mode_e_auto_enum 0="LM_SPEED_DENSITY",2="LM_ALPHA_N",3="LM_LUA",100="LM_MOCK",1="LM_REAL_MAF"
 #define engine_load_mode_e_enum "Speed Density", "MAF Air Charge", "Alpha-N", "Lua"
 #define engine_load_mode_e_LM_ALPHA_N 2
@@ -1196,13 +1196,13 @@
 #define gppwm_channel_e_GPPWM_VVT_2E 14
 #define gppwm_channel_e_GPPWM_VVT_2I 13
 #define gppwm_channel_e_GPPWM_Zero 0
-#define gppwm_channel_size 108
+#define gppwm_channel_size 204
 #define GPPWM_CHANNELS 4
 #define gppwm_compare_mode_e_GPPWM_GreaterThan 0
 #define gppwm_compare_mode_e_GPPWM_LessThan 1
-#define GPPWM_LOAD_COUNT 8
+#define GPPWM_LOAD_COUNT 12
 #define GPPWM_NOTE_SIZE 16
-#define GPPWM_RPM_COUNT 8
+#define GPPWM_RPM_COUNT 12
 #define HD_MENU_NAME "Harley"
 #define hpfp_cam_e_auto_enum 0="HPFP_CAM_NONE",2="HPFP_CAM_EX1",4="HPFP_CAM_EX2",1="HPFP_CAM_IN1",3="HPFP_CAM_IN2"
 #define hpfp_cam_e_enum "NONE", "Intake 1", "Exhaust 1", "Intake 2", "Exhaust 2"
@@ -1260,8 +1260,8 @@
 #define INDICATOR_NAME_BRAKE_DOWN "Brake switch"
 #define INDICATOR_NAME_CLUTCH_DOWN "Clutch: down"
 #define INDICATOR_NAME_CLUTCH_UP "Clutch: up"
-#define INJ_PHASE_LOAD_COUNT 16
-#define INJ_PHASE_RPM_COUNT 16
+#define INJ_PHASE_LOAD_COUNT 6
+#define INJ_PHASE_RPM_COUNT 6
 #define INJ_STAGING_COUNT 6
 #define injection_mode_e_auto_enum 0="IM_SIMULTANEOUS",2="IM_BATCH",1="IM_SEQUENTIAL",3="IM_SINGLE_POINT"
 #define injection_mode_e_IM_BATCH 2
@@ -1336,8 +1336,8 @@
 #define maf_sensor_type_e_enum "v0", "v1", "v2", "v3"
 #define MAIN_HELP_URL "http://www.rusefi.com/"
 #define MAP_ANGLE_SIZE 8
-#define MAP_EST_LOAD_COUNT 16
-#define MAP_EST_RPM_COUNT 16
+#define MAP_EST_LOAD_COUNT 6
+#define MAP_EST_RPM_COUNT 6
 #define MAP_sensor_config_s_size 140
 #define MAP_UPPER_LIMIT 650
 #define MAP_WINDOW_SIZE 8
@@ -1406,7 +1406,7 @@
 #define pedalSensor_NAME "Accelerator pedal"
 #define pedalToTpsTbl_NAME "ETB pedal target"
 #define PERCENT_TRIM_BYTE_PACKING_DIV 0.02
-#define persistent_config_s_size 30888
+#define persistent_config_s_size 30132
 #define pid_s_size 20
 #define pin_input_mode_e_auto_enum 0="PI_DEFAULT",4="PI_INVERTED_DEFAULT",6="PI_INVERTED_PULLDOWN",5="PI_INVERTED_PULLUP",2="PI_PULLDOWN",1="PI_PULLUP"
 #define pin_input_mode_e_enum "DEFAULT", "PULLUP", "PULLDOWN", "INVALID", "INVERTED DEFAULT", "INVERTED PULLUP", "INVERTED PULLDOWN"
@@ -1485,7 +1485,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 3704956815
+#define SIGNATURE_HASH 3483119083
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1553,7 +1553,7 @@
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_BUTTON 0
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_DOWN_SWITCH 2
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_UP_SWITCH 3
-#define TOTAL_CONFIG_SIZE 30888
+#define TOTAL_CONFIG_SIZE 30132
 #define TPS_2_BYTE_PACKING_MULT 100
 #define TPS_PPS_TOO_HIGH_THRESHOLD 110
 #define TPS_PPS_TOO_LOW_THRESHOLD -10
@@ -2024,7 +2024,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.06.30.mega100.3704956815"
+#define TS_SIGNATURE "rusEFI main.2025.06.30.mega100.3483119083"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
