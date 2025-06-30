@@ -9,8 +9,8 @@
 #define show_tcu_gauges false
 #define MAX_TPS_PPS_DISCREPANCY 10
 
-#define BOOST_RPM_COUNT 12
-#define BOOST_LOAD_COUNT 12
+#define GPPWM_RPM_COUNT 12
+#define GPPWM_LOAD_COUNT 12
 
 #define LUA_SCRIPT_SIZE 15000
 
