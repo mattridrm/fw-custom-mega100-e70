@@ -1483,9 +1483,9 @@
 #define SentInput_INPUT6 6
 #define SentInput_INPUT7 7
 #define SentInput_NONE 0
-#define show_tcu_gauges true
+#define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 3272911303
+#define SIGNATURE_HASH 3704956815
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1876,7 +1876,7 @@
 #define ts_show_etb_min_max true
 #define ts_show_etb_pid true
 #define ts_show_etb_pid_autotune true
-#define ts_show_etb_pins true
+#define ts_show_etb_pins false
 #define ts_show_exhaust_vvt true
 #define ts_show_experimental true
 #define ts_show_fan2_settings true
@@ -1911,7 +1911,7 @@
 #define ts_show_fuel_trims true
 #define ts_show_full_pinout true
 #define ts_show_gasoline_scale true
-#define ts_show_gdi true
+#define ts_show_gdi false
 #define ts_show_gdi_low_level true
 #define ts_show_globalTriggerAngleOffset true
 #define ts_show_gppwm1_pin true
@@ -1943,7 +1943,7 @@
 #define ts_show_intake_cam_edge true
 #define ts_show_intake_vvt_direction true
 #define ts_show_jam_detection true
-#define ts_show_k_line true
+#define ts_show_k_line false
 #define ts_show_knock_cylinder_mapping true
 #define ts_show_l9779 false
 #define ts_show_live_data true
@@ -1971,7 +1971,7 @@
 #define ts_show_sd_pins true
 #define ts_show_second_bank true
 #define ts_show_sent true
-#define ts_show_software_knock true
+#define ts_show_software_knock false
 #define ts_show_speedo_settings true
 #define ts_show_spi true
 #define ts_show_spi1_enable true
@@ -1994,7 +1994,7 @@
 #define ts_show_strokes true
 #define ts_show_sync_cam true
 #define ts_show_tachometer true
-#define ts_show_tcu true
+#define ts_show_tcu false
 #define ts_show_throttle_switch true
 #define ts_show_tle8888 false
 #define ts_show_top_level_can_menu true
@@ -2024,7 +2024,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.06.30.mega100.3272911303"
+#define TS_SIGNATURE "rusEFI main.2025.06.30.mega100.3704956815"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
