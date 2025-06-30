@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <msq xmlns="http://www.msefi.com/:msq">
     <page/>
-    <page number="0" size="23888">
+    <page number="0" size="30888">
         <constant name="accelerometerCsPin">"NONE"</constant>
         <constant name="accelerometerCsPinMode">"default"</constant>
         <constant name="accelerometerSpiDevice">"Off"</constant>
@@ -5242,7 +5242,7 @@ end</constant>
 </constant>
         <constant name="yesUnderstandLocking">"no"</constant>
     </page>
-    <versionInfo firmwareInfo="20250618" nPages="1" signature="rusEFI main.2025.06.30.mega100.3811007874" version="5.0"/>
+    <versionInfo firmwareInfo="20250618" nPages="1" signature="rusEFI main.2025.06.30.mega100.3272911303" version="5.0"/>
     <bibliography author="rusEFI 20250618" writeDate="date"/>
     <settings/>
     <userComments/>
