@@ -11,3 +11,5 @@
 
 ! board has zero LEDs
 #define ts_show_status_leds false
+#define BOOST_RPM_COUNT 12
+#define BOOST_LOAD_COUNT 12
