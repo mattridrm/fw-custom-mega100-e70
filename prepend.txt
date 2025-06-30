@@ -9,10 +9,11 @@
 #define show_tcu_gauges false
 #define MAX_TPS_PPS_DISCREPANCY 10
 
-#define LUA_SCRIPT_SIZE 25000
+#define BOOST_RPM_COUNT 12
+#define BOOST_LOAD_COUNT 12
+
+#define LUA_SCRIPT_SIZE 15000
 
 ! board has zero LEDs
 #define ts_show_status_leds false
 
-#define BOOST_RPM_COUNT 12
-#define BOOST_LOAD_COUNT 12
