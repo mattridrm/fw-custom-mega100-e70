@@ -9,7 +9,7 @@
 #define show_tcu_gauges true
 #define MAX_TPS_PPS_DISCREPANCY 10
 
-#define LUA_SCRIPT_SIZE 25000
+#define LUA_SCRIPT_SIZE 15000
 
 ! board has zero LEDs
 #define ts_show_status_leds false
