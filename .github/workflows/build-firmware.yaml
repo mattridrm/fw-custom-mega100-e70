@@ -31,8 +31,7 @@ jobs:
             echo 'sim=false' >> $GITHUB_OUTPUT
           fi
 
-      #- uses: ./ext/rusefi/.github/workflows/custom-board-build
-      - uses: ./ext/rusefi/.github/workflows/build-simulator
+      - uses: ./ext/rusefi/.github/workflows/custom-board-build
         with:
           new_tag: ${{steps.set-variables.outputs.release_date}}
           artifacts: bin srec hex list map elf bundle autoupdate
