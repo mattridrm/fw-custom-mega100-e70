@@ -28,13 +28,13 @@ jobs:
             echo 'sim=true' >> $GITHUB_OUTPUT
           else
             echo 'push=false' >> $GITHUB_OUTPUT
-            echo 'sim=false' >> $GITHUB_OUTPUT
+            echo 'sim=true' >> $GITHUB_OUTPUT
           fi
 
       - uses: ./ext/rusefi/.github/workflows/custom-board-build
         with:
           new_tag: ${{steps.set-variables.outputs.release_date}}
-          artifacts: bin srec hex list map elf bundle autoupdate simulator
+          artifacts: bin srec hex list map elf bundle autoupdate
           uploads: ini ${{steps.set-variables.outputs.upload}}
           push: ${{steps.set-variables.outputs.push}}
           run_simulator: ${{ steps.set-variables.outputs.sim }}
