@@ -27,11 +27,12 @@ jobs:
             echo 'push=true' >> $GITHUB_OUTPUT
             echo 'sim=true' >> $GITHUB_OUTPUT
           else
-            echo 'push=true' >> $GITHUB_OUTPUT
-            echo 'sim=true' >> $GITHUB_OUTPUT
+            echo 'push=false' >> $GITHUB_OUTPUT
+            echo 'sim=false' >> $GITHUB_OUTPUT
           fi
 
-      - uses: ./ext/rusefi/.github/workflows/custom-board-build
+      #- uses: ./ext/rusefi/.github/workflows/custom-board-build
+      - uses: ./ext/rusefi/.github/workflows/custom-board-build ./ext/rusefi/.github/workflows/build-simulator
         with:
           new_tag: ${{steps.set-variables.outputs.release_date}}
           artifacts: bin srec hex list map elf bundle autoupdate
